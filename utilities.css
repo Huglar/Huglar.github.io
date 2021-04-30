@@ -1,0 +1,25 @@
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 50px 0 50px;
+  background-color: var(--secondary-color);
+}
+
+.card {
+  background-color: var(--main-light-color);
+  color: var(--main-dark-color);
+  border-radius: 15px 30px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
