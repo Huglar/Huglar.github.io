@@ -252,12 +252,12 @@ footer ul a:hover {
   }
   .projects .my-1,
   .projects .py-1 {
-    margin: 5px;
+    margin: 15px;
     padding: auto;
   }
 
   .testimonials .mx-5 {
-    margin: 5px;
+    margin: 15px;
   }
 }
 
