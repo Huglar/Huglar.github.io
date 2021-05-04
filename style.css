@@ -250,6 +250,15 @@ footer ul a:hover {
   .skills .grid-3 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .projects .my-1,
+  .projects .py-1 {
+    margin: 5px;
+    padding: auto;
+  }
+
+  .testimonials .mx-5 {
+    margin: 5px;
+  }
 }
 
   /*Mobile version rendering*/
