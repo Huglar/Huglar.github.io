@@ -99,11 +99,6 @@ color: var(--main-light-color);
 border: none;
 border-radius: 5px;
 }
-/*for showcase button "Read more"*/
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
-}
 
 .btn:hover {
   transform: scale(0.98);
@@ -196,8 +191,7 @@ border-radius: 5px;
 }
 
 
-/*TEST Utilities*/
-
+/*skills*/
 .grid-3 {
  grid-template-columns: repeat(3, 1fr);
 }
