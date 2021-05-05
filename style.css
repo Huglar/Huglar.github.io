@@ -201,6 +201,10 @@ footer ul a:hover {
     grid-template-rows: 1fr;
   }
 
+/*height:100% to remove scroll-bar, to show full "about" class with all items */
+  .about {
+    height: 100%;
+  }
 
   .about-text {
     display: grid;
