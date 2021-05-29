@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+console.log('HEllo');
 /* const variables with '.querySelector' as a method which has a class
 '.music container' in the string '' as a parameter
 for containter(classes) with '.', for buttons(id) with '#' */
