@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* const variables with '.querySelector' as a method which has a class
 '.music container' in the string '' as a parameter
 for containter(classes) with '.', for buttons(id) with '#' */
@@ -334,4 +334,3 @@ playBtn.addEventListener('click', () => {
   /*To make the song playing one by one we create audio API with addEventListener
   we can listen for 'ended' and when song ends it will call nextSong function*/
   audio.addEventListener('ended', nextSong)
->>>>>>> 6445b633b6b03eb42b94aea9039f99a6f59bcbc2
