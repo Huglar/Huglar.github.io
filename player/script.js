@@ -13,6 +13,7 @@ const progressContainer = document.querySelector('.progress-container')
 const title = document.querySelector('#title')
 const cover = document.querySelector('#cover')
 
+
 // Song titles, songs in array should match the names of songs in a folder
 const songs = ['hey', 'summer', 'ukulele']
 
@@ -126,9 +127,8 @@ add() method) a 'play' class*/
    it should set current time to place, which we click on on the progress bar
    we click on progress bar and we can go to any part of song on progress bar*/
    audio.currentTime = (clickX / width) * duration
-
-
  }
+
 
 //Event listeners
 /*for play btn we add .addEventListener method (in which first parameter is
@@ -165,3 +165,14 @@ playBtn.addEventListener('click', () => {
   /*To make the song playing one by one we create audio API with addEventListener
   we can listen for 'ended' and when song ends it will call nextSong function*/
   audio.addEventListener('ended', nextSong)
+
+  //Tracklist events
+  //Playing song from the list
+
+  const full_li = document.getElementsByTagName("li");
+  for(let i = 0; i < full_li.length; i++){
+    full_li[i].onclick = function(){
+        audio.src = this.id;
+        audio.play();
+    }
+} 

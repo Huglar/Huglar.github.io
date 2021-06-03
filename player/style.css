@@ -184,3 +184,63 @@ we dont need to put anything inside of content if we want to leave it empty*/
     with the song progress on the bar*/
     transition: width 0.1s linear;
   }
+
+  /*list-container*/
+
+   .list-container {
+    position: relative;
+    left: 360px;
+    bottom: 210px;
+    background-color: hsl(0, 90%, 92%);
+    border-radius: 10px 10px 0 0;
+    height: 30px;
+    width: 20%;
+  }
+
+  h3 {
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+  }
+
+  ul {
+    position: relative;
+    list-style-type: none;
+    bottom: 29px;
+    background-color: #fff;
+
+  }
+
+  li {
+    margin-left: -20px;
+  }
+
+  li:hover {
+    background-color: hsl(0, 90%, 92%);
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+  }
+
+/*
+
+#thelist {
+  position: relative;
+  bottom: 31px;
+  overflow: hidden;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  font-size: 15px;
+}
+
+option::selection {
+  background-color: black;
+  color: red;
+}
+  select {
+    border: 0px;
+    outline: 0px;
+  }
+  */
